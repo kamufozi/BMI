@@ -1,0 +1,16 @@
+#include<iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+  int BMI,weight,height;//BMI= body mass index
+  cout<<"what is your weight in kilograms : ";
+  cin>>weight;
+  cout<<"what  is your height in metres :";
+  cin>>height;
+  BMI=(weight/height*height);
+  
+  cout<<"you body mass index is :"<<BMI;
+
+ return 0 ; 
+}
