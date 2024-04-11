@@ -11,6 +11,7 @@ int main()
   BMI=(weight/height*height);
   
   cout<<"you body mass index is :"<<BMI;
+  //my first try at c++.
 
  return 0 ; 
 }
